@@ -1,4 +1,8 @@
-[{"name" : "pranit",
-  "age" : 24},
-{"name" : "pranita",
-  "age" : 23}]
+[{"id" : "Que_1"
+  "Que_no" : 1
+  "Que" : "Humans have feelings.",
+  "answer" : true},
+{"id" : "Que_2"
+  "Que_no" : 2
+  "Que" : "Tiger is not most revenging animal.",
+  "answer" : false}]
