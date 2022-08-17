@@ -1,4 +1,4 @@
-#!/bin/sh -l
+#! /usr/bin/env bash
 
 final String url = "http://localhost:8080/job/Demos/job/maven-pipeline-demo/job/sdkman/2/api/json"
 
