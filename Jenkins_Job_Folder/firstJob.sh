@@ -1,7 +1,4 @@
 #! /usr/bin/env bash
 
-final String url = "http://localhost:8080/job/Demos/job/maven-pipeline-demo/job/sdkman/2/api/json"
+echo $(curl -o /dev/null -s -w "%{http_code}\n" https://harvester-em.dev.dp.elsevier.systems/ping)
 
-final String response = sh(script: "curl -s $url", returnStdout: true).trim()
-
-echo response
